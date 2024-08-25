@@ -32,7 +32,6 @@ function TodoList() {
         if(isSuccess) {
             setJob([...job, value ])
             toast.success("Thêm mới thành công")
-            //clear job on input
             resetForm();
         } else {
             toast.error("Thêm mới thất bại.")
